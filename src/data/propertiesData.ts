@@ -1,0 +1,287 @@
+// src/data/propertiesData.ts
+import { PropertyListing } from '@/types';
+
+export const INITIAL_PROPERTIES: PropertyListing[] = [
+  {
+    id: 'PROP-PUN-01',
+    title: 'Pride Panorama - Premium 3 BHK Residence',
+    category: 'residential',
+    subType: 'apartment',
+    city: 'Pune',
+    locality: 'Shivaji Nagar',
+    state: 'Maharashtra',
+    askingPrice: 21000000, // ₹2.10 Cr
+    readyReckonerBenchmark: 18200000, // ₹1.82 Cr
+    areaSqFt: 1550,
+    carpetAreaSqFt: 1240,
+    bedrooms: 3,
+    bathrooms: 3,
+    floor: 9,
+    totalFloors: 14,
+    amenities: ['Clubhouse', 'Swimming Pool', 'EV Charging', 'Covered Car Parking', '24/7 Security', 'High-Speed Elevators'],
+    possessionStatus: 'Ready to Move',
+    propertyAgeYears: 2,
+    reraId: 'P52100024981',
+    ulpinId: 'MH-PUN-PUN-101-4421',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'East Facing Entrance (Purva)',
+    vastuScore: 88,
+    images: ['/properties/apt-1.jpg'],
+    description: 'Ultra-spacious 3BHK high-rise apartment in central Shivaji Nagar. Excellent connectivity to Fergusson College Road, Metro Line 1, and University circle. Vastu compliant layout with East-facing entrance and South-East fire zone kitchen.',
+    verifiedDate: '2026-03-25',
+    featured: true,
+    contactPerson: 'Abhay Kulkarni',
+    contactRole: 'Senior Property Consultant',
+    nearbyFacilities: {
+      metroStation: 'Shivaji Nagar Metro Station (400 m)',
+      highwayDistanceKm: 2.5,
+      schoolNearby: 'Symbiosis School (800 m)',
+      hospitalNearby: 'Sancheti Hospital (1.2 km)',
+      itParkNearby: 'ICC Tech Park (1.5 km)'
+    }
+  },
+  {
+    id: 'PROP-PUN-02',
+    title: 'Eon Waters - 2.5 BHK Waterfront Residence',
+    category: 'residential',
+    subType: 'apartment',
+    city: 'Pune',
+    locality: 'Kharadi',
+    state: 'Maharashtra',
+    askingPrice: 12800000, // ₹1.28 Cr
+    readyReckonerBenchmark: 11800000, // ₹1.18 Cr
+    areaSqFt: 1220,
+    carpetAreaSqFt: 980,
+    bedrooms: 2,
+    bathrooms: 2,
+    floor: 12,
+    totalFloors: 22,
+    amenities: ['Gymnasium', 'Jogging Track', 'Tennis Court', 'Piped Gas', 'Rooftop Lounge'],
+    possessionStatus: 'Ready to Move',
+    propertyAgeYears: 1,
+    reraId: 'P52100031845',
+    ulpinId: 'MH-PUN-HAV-180-8790',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'North-East Facing Entrance (Ishanya)',
+    vastuScore: 92,
+    images: ['/properties/apt-2.jpg'],
+    description: 'Modern luxury flat located walking distance from EON Free Zone & World Trade Center Kharadi. North-East entrance bringing abundant natural light and peaceful river views.',
+    verifiedDate: '2026-04-01',
+    featured: true,
+    contactPerson: 'Meera Deshpande',
+    contactRole: 'Lead Realtor - East Pune',
+    nearbyFacilities: {
+      metroStation: 'Ramwadi Metro Station (3.2 km)',
+      highwayDistanceKm: 1.0,
+      schoolNearby: 'Podar International School (1.5 km)',
+      hospitalNearby: 'Manipal Hospital Kharadi (2.0 km)',
+      itParkNearby: 'EON IT Park Phase 1 & 2 (500 m)'
+    }
+  },
+  {
+    id: 'PROP-PUN-03',
+    title: 'Hinjewadi Tech Corridor - 5.5 Acre Development Parcel',
+    category: 'land',
+    subType: 'plot',
+    city: 'Pune',
+    locality: 'Hinjewadi Phase 3',
+    state: 'Maharashtra',
+    askingPrice: 385000000, // ₹38.50 Cr
+    readyReckonerBenchmark: 336000000, // ₹33.60 Cr
+    areaSqFt: 239580, // 5.5 Acres
+    amenities: ['80-ft DP Road Frontage', '3-Phase Industrial Power', 'Direct Water Pipeline Connection', 'Boundary Fencing'],
+    possessionStatus: 'Immediate',
+    ulpinId: 'MH-PUN-MUL-303-9012',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'North-East Slope with East Frontage',
+    vastuScore: 85,
+    images: ['/properties/land-1.jpg'],
+    description: 'Prime 5.5-acre contiguous land parcel in Hinjewadi Phase 3 IT Corridor. Verified NA Non-Agricultural potential with permissible FSI up to 2.5 under MIDC/PMRDA IT & ITES development policy. Perfect for Grade-A tech park or co-living campus.',
+    verifiedDate: '2026-03-29',
+    featured: true,
+    contactPerson: 'Sanjay Shinde',
+    contactRole: 'VP - Land Acquisitions & JV',
+    nearbyFacilities: {
+      metroStation: 'Hinjewadi Megapolis Metro Terminal (1.2 km)',
+      highwayDistanceKm: 4.0,
+      schoolNearby: 'Blue Ridge Public School (3.5 km)',
+      hospitalNearby: 'Ruby Hall Clinic Hinjewadi (4.0 km)',
+      itParkNearby: 'TCS, Infosys, Cognizant Phase 3 Campus (800 m)'
+    }
+  },
+  {
+    id: 'PROP-PUN-04',
+    title: 'Baner West - 2.2 Acre High-Density Residential Land',
+    category: 'land',
+    subType: 'plot',
+    city: 'Pune',
+    locality: 'Baner',
+    state: 'Maharashtra',
+    askingPrice: 280000000, // ₹28.00 Cr
+    readyReckonerBenchmark: 252000000, // ₹25.20 Cr
+    areaSqFt: 95832, // 2.2 Acres
+    amenities: ['100-ft Ring Road Touch', 'Underground Storm Drainage', 'PMRDA Demarcated', 'Clear 7/12 Extract'],
+    possessionStatus: 'Immediate',
+    ulpinId: 'MH-PUN-HAV-102-3310',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'North Facing Frontage (Kubera)',
+    vastuScore: 90,
+    images: ['/properties/land-2.jpg'],
+    description: 'High-potential residential development parcel along the Baner-Mahalunge growth corridor. Clear 30-year search report, no encumbrances, zero agricultural tenant claims.',
+    verifiedDate: '2026-04-04',
+    featured: false,
+    contactPerson: 'Sanjay Shinde',
+    contactRole: 'VP - Land Acquisitions & JV',
+    nearbyFacilities: {
+      metroStation: 'Balewadi Stadium Metro (2.2 km)',
+      highwayDistanceKm: 1.5,
+      schoolNearby: 'The Orchid School Baner (2.0 km)',
+      hospitalNearby: 'Jupiter Hospital Baner (3.0 km)',
+      itParkNearby: 'Hinjewadi Phase 1 (5.5 km)'
+    }
+  },
+  {
+    id: 'PROP-PUN-05',
+    title: 'Wakad Symphony - 2 BHK High-Rise Flat',
+    category: 'residential',
+    subType: 'apartment',
+    city: 'Pune',
+    locality: 'Wakad',
+    state: 'Maharashtra',
+    askingPrice: 8200000, // ₹82 Lakh
+    readyReckonerBenchmark: 7810000, // ₹78.10 Lakh
+    areaSqFt: 1050,
+    carpetAreaSqFt: 780,
+    bedrooms: 2,
+    bathrooms: 2,
+    floor: 6,
+    totalFloors: 16,
+    amenities: ['Gym', 'Children Play Area', 'Solar Water', 'Gated Security', 'Covered Parking'],
+    possessionStatus: 'Ready to Move',
+    propertyAgeYears: 3,
+    reraId: 'P52100041230',
+    ulpinId: 'MH-PUN-HAV-210-5421',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'North Facing Entrance',
+    vastuScore: 80,
+    images: ['/properties/apt-3.jpg'],
+    description: 'Well-maintained 2BHK flat near Datta Mandir road, Wakad. Walking distance from D-Mart and upcoming retail high-street. Ideal for first-time homebuyers working in Hinjewadi or Baner.',
+    verifiedDate: '2026-04-05',
+    featured: false,
+    contactPerson: 'Pooja Joshi',
+    contactRole: 'Realtor - PCMC Cluster',
+    nearbyFacilities: {
+      metroStation: 'Wakad Chowk Metro (1.8 km)',
+      highwayDistanceKm: 1.2,
+      schoolNearby: 'Wisdom World School (1.0 km)',
+      hospitalNearby: 'Surya Mother & Child Hospital (1.5 km)',
+      itParkNearby: 'Hinjewadi Tech Park (3.5 km)'
+    }
+  },
+  {
+    id: 'PROP-PUN-06',
+    title: 'Kalyani Imperial - 4 BHK Luxury Penthouse',
+    category: 'residential',
+    subType: 'penthouse',
+    city: 'Pune',
+    locality: 'Kalyani Nagar',
+    state: 'Maharashtra',
+    askingPrice: 38500000, // ₹3.85 Cr
+    readyReckonerBenchmark: 34500000, // ₹3.45 Cr
+    areaSqFt: 2850,
+    carpetAreaSqFt: 2310,
+    bedrooms: 4,
+    bathrooms: 5,
+    floor: 18,
+    totalFloors: 18,
+    amenities: ['Private Plunge Pool', 'Double Height Balcony', 'Dedicated 3 Car Parks', 'Concierge Service', 'Private Elevator'],
+    possessionStatus: 'Ready to Move',
+    propertyAgeYears: 1,
+    reraId: 'P52100019200',
+    ulpinId: 'MH-PUN-HAV-145-7761',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'East Facing Entrance with River Vista',
+    vastuScore: 94,
+    images: ['/properties/apt-4.jpg'],
+    description: 'Flagship duplex penthouse in Kalyani Nagar overlooking the Mula-Mutha green belt. Designed with high ceilings, imported Italian marble, and complete Vastu compliance.',
+    verifiedDate: '2026-04-08',
+    featured: true,
+    contactPerson: 'Abhay Kulkarni',
+    contactRole: 'Senior Property Consultant',
+    nearbyFacilities: {
+      metroStation: 'Kalyani Nagar Metro Station (600 m)',
+      highwayDistanceKm: 3.0,
+      schoolNearby: 'The Bishop’s Co-Ed School (1.8 km)',
+      hospitalNearby: 'Sahyadri Specialty Hospital (2.5 km)',
+      itParkNearby: 'Cerebrum IT Park (1.0 km)'
+    }
+  },
+  {
+    id: 'PROP-PUN-07',
+    title: 'CyberCity Towers - Grade A Commercial IT Office',
+    category: 'commercial',
+    subType: 'office',
+    city: 'Pune',
+    locality: 'Hadapsar / Magarpatta',
+    state: 'Maharashtra',
+    askingPrice: 46000000, // ₹4.60 Cr
+    readyReckonerBenchmark: 41800000, // ₹4.18 Cr
+    areaSqFt: 3800,
+    carpetAreaSqFt: 3100,
+    bathrooms: 4,
+    floor: 5,
+    totalFloors: 12,
+    amenities: ['100% DG Power Backup', 'Centralized HVAC', 'Fiber Optic Backbone', 'BMS Automation', 'Basement Parking'],
+    possessionStatus: 'Ready to Move',
+    propertyAgeYears: 2,
+    reraId: 'P52100028750',
+    ulpinId: 'MH-PUN-HAV-405-2290',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'North-East Facing Entrance with SW MD Cabin',
+    vastuScore: 89,
+    images: ['/properties/comm-1.jpg'],
+    description: 'Fully furnished Grade-A corporate office in Magarpatta CyberCity ecosystem. Currently pre-leased to an AI technology multinational on a 5+5 year lock-in lease generating ₹3.15 Lakh/month (8.2% gross yield).',
+    verifiedDate: '2026-04-10',
+    featured: true,
+    contactPerson: 'Meera Deshpande',
+    contactRole: 'Lead Commercial Broker',
+    nearbyFacilities: {
+      metroStation: 'Hadapsar Flyover Metro (1.5 km)',
+      highwayDistanceKm: 0.8,
+      schoolNearby: 'Vibgyor High School (2.0 km)',
+      hospitalNearby: 'Noble Hospital (1.5 km)',
+      itParkNearby: 'Magarpatta Cybercity (Inside Campus)'
+    }
+  },
+  {
+    id: 'PROP-PUN-08',
+    title: 'Greenfield Valley - 1800 sq.ft Sanctioned Villa Plot',
+    category: 'land',
+    subType: 'plot',
+    city: 'Pune',
+    locality: 'Bavdhan',
+    state: 'Maharashtra',
+    askingPrice: 6800000, // ₹68 Lakh
+    readyReckonerBenchmark: 5850000, // ₹58.50 Lakh
+    areaSqFt: 1800,
+    amenities: ['Gated Villa Society', 'Clubhouse & Swimming Pool', 'Individual Water Meter', 'Paved Internal Roads'],
+    possessionStatus: 'Immediate',
+    ulpinId: 'MH-PUN-MUL-220-1144',
+    titleStatus: 'Clear Marketable Title',
+    vastuOrientation: 'East Facing Entrance Plot',
+    vastuScore: 84,
+    images: ['/properties/land-3.jpg'],
+    description: 'PMRDA-sanctioned residential plot in Bavdhan Hills with sanctioned layout and individual 7/12 extract. Close to Chandani Chowk multi-level flyover.',
+    verifiedDate: '2026-04-12',
+    featured: false,
+    contactPerson: 'Pooja Joshi',
+    contactRole: 'Realtor - West Pune',
+    nearbyFacilities: {
+      metroStation: 'Vanaz Metro Station (4.2 km)',
+      highwayDistanceKm: 1.0,
+      schoolNearby: 'Ryan International School (2.0 km)',
+      hospitalNearby: 'Chellaram Hospital (1.5 km)',
+      itParkNearby: 'Kothrud Industrial Area (3.5 km)'
+    }
+  }
+];
